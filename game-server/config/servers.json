@@ -1,0 +1,17 @@
+{
+  "development":{
+    "connector": [
+    {"id": "connector-server-1", "host": "127.0.0.1", "port": 3150, "clientPort": 3010, "frontend": true}
+    ],
+    "read": [
+    {"id": "read-server-1", "host": "127.0.0.1", "port": 4150},
+    {"id": "read-server-2", "host": "127.0.0.1", "port": 4151},
+    {"id": "read-server-3", "host": "127.0.0.1", "port": 4152}
+    ]
+  },
+  "production":{
+    "connector": [
+    {"id": "connector-server-1", "host": "127.0.0.1", "port": 3150, "clientPort": 3010, "frontend": true}
+    ]
+  }
+}

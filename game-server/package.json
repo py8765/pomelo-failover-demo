@@ -1,0 +1,9 @@
+{
+    "name":"pomelo-failover-demo",
+    "version":"0.0.1",
+    "private":false,
+    "dependencies":{
+        "pomelo":"0.9.3"
+    }
+}
+
